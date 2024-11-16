@@ -1,0 +1,19 @@
+.Odd{
+    background-color: rgb(255, 170, 170);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#Second{
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+.Third{
+    font-size: 24px;
+}
+
+#Fourth{
+    background-color: hsl(91, 86%, 43%);
+    font-weight: bold;
+    font-size: 24px;
+}
