@@ -27,3 +27,65 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Assignment Starts Here */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.main, .card-panel {
+  display: flex;
+}
+
+.main{
+  flex-grow: 1;
+}
+
+.card-panel{
+  flex-flow: row wrap;
+}
+
+.card {
+  flex: 0 0 300px;
+  margin: 20px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.sidebar{
+  flex-shrink: 0;
+}
+
+ul, li, a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  padding: 0 0 0 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px 0 10px 10px;
+  font-weight: 900;
+}
+
+a {
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
